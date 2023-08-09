@@ -5,10 +5,6 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 gemspec
 
 group :development, :test do
-  # gem 'activerecord'
-  # gem 'actionpack' # action_controller, action_view
-  # gem 'sprockets'
-
   gem 'byebug'
   gem 'combustion', '~> 1.3'
   gem 'daemons'
@@ -20,5 +16,3 @@ group :development, :test do
   gem 'timecop', '>= 0.7'
 end
 
-# To use a debugger
-# gem 'byebug', group: [:development, :test]
