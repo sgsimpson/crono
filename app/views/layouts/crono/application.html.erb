@@ -9,7 +9,6 @@
     <%= stylesheet_link_tag 'crono/application', media: "all" %>
     <%= csrf_meta_tags %>
   </head>
-
   <body class="blue-grey darken-2">
     <nav class="blue-grey white-text" role="navigation">
       <a class="brand-logo center" href="<%= root_path %>">
@@ -17,9 +16,7 @@
       </a>
     </nav>
     <main class="container blue-grey lighten-4">
-
       <%= yield %>
-
       <footer class="page-footer blue-grey darken-2">
         <div class="footer-copyright blue-grey">
           Crono v<%= Crono::VERSION %>
